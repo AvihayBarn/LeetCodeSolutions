@@ -48,9 +48,6 @@ namespace LeetCodeSolutions
             return num;
         }
 
-         static void Main()
-        {
-            System.Diagnostics.Debug.WriteLine(Calculate("2+2-1+4-1"));
-        }
+        
     }
 }

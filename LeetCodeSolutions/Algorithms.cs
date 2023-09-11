@@ -1,9 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LeetCodeSolutions
 {
-    class Program
+    class Algorithms
     {
+      
+
+
+
         public static bool IsValidNumber(string s)
         {
             
@@ -87,16 +92,9 @@ namespace LeetCodeSolutions
 
             
         }
-       /* static void Main(string[] args)
+        static void Main(string[] args)
         {
-            System.Diagnostics.Debug.WriteLine(IsValidNumber("5897972791"));
-            System.Diagnostics.Debug.WriteLine(IsValidNumber("--6"));
-            bool[] IsValidNumberTrueArr = { IsValidNumber("2"), IsValidNumber("0089"), IsValidNumber("-0.1"), IsValidNumber("+3.14"), IsValidNumber("4."), IsValidNumber("-.9"), IsValidNumber("2e10"), IsValidNumber("-90E3"), IsValidNumber("3e+7"), IsValidNumber("+6e-1"), IsValidNumber("53.5e93"), IsValidNumber("-123.456e789") };
-            bool[] IsValidNumberFalseArr = { IsValidNumber("abc"), IsValidNumber("1a"), IsValidNumber("1e"), IsValidNumber("e3"), IsValidNumber("99e2.5"), IsValidNumber("--6"), IsValidNumber("-+3"), IsValidNumber("6-"), IsValidNumber("6--"), IsValidNumber("95a54e53") };
-            foreach (bool is_number in IsValidNumberTrueArr) System.Diagnostics.Debug.Write($@"{is_number} ");
-            System.Diagnostics.Debug.WriteLine("");
-            foreach (bool is_number in IsValidNumberFalseArr) System.Diagnostics.Debug.Write($@"{is_number} ");
-            System.Diagnostics.Debug.WriteLine("");
-        }*/
+       
+        }
     }
 }
