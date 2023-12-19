@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace LeetCodeSolutions
 {
@@ -80,9 +81,9 @@ namespace LeetCodeSolutions
         }
         private static bool IsIntegerNumber(string expression)
         {
-            if(expression.StartsWith('+') || expression.StartsWith('-'))
+            if (expression.StartsWith('+') || expression.StartsWith('-'))
             {
-                expression = expression.Remove(0,1);
+                expression = expression.Remove(0, 1);
             }
             if (expression.StartsWith('+') || expression.StartsWith('-')) return false;
 
@@ -90,11 +91,21 @@ namespace LeetCodeSolutions
 
             return long.TryParse(expression, out i);
 
-            
         }
+
+
+        
+
+
+        
+
+        
+
+
+
         static void Main(string[] args)
         {
-       
+            
         }
     }
 }
